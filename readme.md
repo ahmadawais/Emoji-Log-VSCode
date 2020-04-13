@@ -9,16 +9,9 @@
 
 > After building [hundreds of open source software](https://github.com/ahmadawais) I've ended up inventing a git commit log standard called `EMOJI-LOG` that helps me read the logs and understand a project history with less cognitive load.
 
-[![emoji-log](https://img.shields.io/badge/%F0%9F%9A%80-emoji%20log-gray.svg?colorA=5734F5&colorB=5734F5&style=flat)](./../../)
-
-<br>
-
-![⚙️](https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/5_alternate_installation.png)
-
 ## USAGE
 
-
-1. Open the command palette (macOS: <kbd>`COMMAND (⌘)`</kbd> + <kbd>`SHIFT (⇧)`</kbd> + <kbd>`P`</kbd>  PC: <kbd>`CONTROL (⌃)`</kbd> + <kbd>`SHIFT (⇧)`</kbd> + <kbd>`P`</kbd>)
+1. Open the command palette (macOS: <kbd>`⌘`</kbd> + <kbd>`⇧`</kbd> + <kbd>`P`</kbd> | Win/Linux: <kbd>`⌃`</kbd> + <kbd>`⇧`</kbd> + <kbd>`P`</kbd>)
 2. Search and select the `Emoji-Log` option
 3. Chose the appropriate Emoji-Log prefix
 4. Emoji-Log will add itself to the Git message box as a prefix
