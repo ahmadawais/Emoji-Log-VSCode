@@ -29,11 +29,24 @@ I have released a video course to help you become a better developer — <a href
 
 <br>
 
+### RELEASE: [0.2.0](https://github.com/ahmadawais/Emoji-Log-VSCode/compare/0.1.0...0.2.0)
+
+![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
+> 👌 Format [`9ca64e0`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/9ca64e02152ef3fe7c593fb2380da4d6000eb608) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [0.1.0](https://github.com/ahmadawais/Emoji-Log-VSCode/compare/0.0.11...0.1.0)
 
 ![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
 
 > 📖 Reorder [`134b48e`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/134b48e672de7277326c1bd2ba163477ae447bf2) <br>
+> 📖 Changelog [`7ca36a8`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/7ca36a83f89e70edfcfd6f9143a7e55d3a4df2d8) <br>
 > 📖 Gif or didnt happen [`e9f0f9f`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/e9f0f9fd53855f257dd0356175b9ea675eaec5c8) <br>
 
 <br>
