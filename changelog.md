@@ -29,28 +29,11 @@ I have released a video course to help you become a better developer — <a href
 
 <br>
 
-### RELEASE: 0.0.2
+### RELEASE: 0.0.3
 
 ![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
 
-> 📦 First version [`9a8eba0`](https://github.com/ahmadawais/ELVSCode/commit/9a8eba035954167bf5164cf4a2663ccd1afef6f8) <br>
-> 📦 Scripts [`158918c`](https://github.com/ahmadawais/ELVSCode/commit/158918c20d0882a9253c7f1f20ddad0154888846) <br>
-
-![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
-
-> 👌 Heading [`e2d1b84`](https://github.com/ahmadawais/ELVSCode/commit/e2d1b842c57246d980709805a80dd6a3abcaaa2d) <br>
-> 👌 Lower-case names [`648307e`](https://github.com/ahmadawais/ELVSCode/commit/648307eac471db3ca7535092df3c37e6f32b7906) <br>
-
-![🐛 FIX:](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
-
-> 🐛 Scripts [`d366195`](https://github.com/ahmadawais/ELVSCode/commit/d3661954faaf591b3bb71fb5a92f8e26ee5da10e) <br>
-> 🐛 Scripts [`e600aa0`](https://github.com/ahmadawais/ELVSCode/commit/e600aa0f0ec8b05647fcc98426a818a96bf0b350) <br>
-> 🐛 Scripts [`931d01a`](https://github.com/ahmadawais/ELVSCode/commit/931d01a2bdbf3582628faa72d376b149d073d2f7) <br>
-> 🐛 Badge [`a934b02`](https://github.com/ahmadawais/ELVSCode/commit/a934b0254a702366727e0957163f97c3081d9b65) <br>
-
-![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
-
-> 📖 Install instrcutions [`c9599a6`](https://github.com/ahmadawais/ELVSCode/commit/c9599a62a012079e8f6c574ebd5b8e7baa1766a6) <br>
+> 📦 First version [`96ee637`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/96ee637730934a2acecfdfe1c2251030c4094fac) <br>
 
 <br>
 
