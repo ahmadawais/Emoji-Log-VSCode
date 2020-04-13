@@ -60,10 +60,7 @@
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
 		"watch": "tsc -watch -p ./",
-		"pretest": "npm run compile",
-		"release": "release-it --ci --config '../../../../Dropbox/bin/.release-it.json' minor && npx vsce publish",
-		"release-patch": "release-it --ci --config '../../../../Dropbox/bin/.release-it.json' patch && npx vsce publish",
-		"release-major": "release-it --ci --config '../../../../Dropbox/bin/.release-it.json' major && npx vsce publish"
+		"pretest": "npm run compile"
 	},
 	"devDependencies": {
 		"@types/glob": "^7.1.1",
