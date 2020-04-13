@@ -15,25 +15,40 @@
 
 ![Install](https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/4_install.png)
 
-## Easy Installation
+## EASY INSTALLATION
 
 1. Open the extensions sidebar on Visual Studio Code
-2. Search for **Emoji Log**
+2. Search for **ahmadawais.emoji-log-vscode**
 3. Click **Install** to install it.
-4. Click **Reload** to reload your editor.
-6. 🌟 [Rate five-stars](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple#review-details).
+4. 🌟 [Rate five-stars](https://marketplace.visualstudio.com/items?itemName=ahmadawais.emoji-log-vscode&ssr=false#review-details).
+
+#### ALTERNATE INSTALLATION
+
+1. Launch Quick Open using <kbd>COMMAND (⌘)</kbd>+<kbd>P</kbd> OR <kbd>CONTROL (⌃)</kbd>+<kbd>P</kbd>.
+2. Paste the command `ext install ahmadawais.emoji-log-vscode`
+3. Click **Install** to install it.
+4. 🌟 [Rate five-stars](https://marketplace.visualstudio.com/items?itemName=ahmadawais.emoji-log-vscode&ssr=false#review-details).
 
 <br>
 
+
 ![alternate installation](https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/5_alternate_installation.png)
 
-## Alternate Installation
+## USAGE
 
-1. Launch Quick Open using <kbd>COMMAND (⌘)</kbd>+<kbd>P</kbd> — or — <kbd>CONTROL (⌃)</kbd>+<kbd>P</kbd>.
-2. Paste the command `ext install emoji-log`
-3. Click **Install** to install it.
-4. Click **Reload** to reload the your editor.
-6. 🌟 [Rate five-stars](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple#review-details).
+1. Open the command palette (macOS: <kbd>`COMMAND (⌘)`</kbd> + <kbd>`SHIFT (⇧)`</kbd> + <kbd>`P`</kbd> `OR` Win/Linux: <kbd>`CONTROL (⌃)`</kbd> + <kbd>`SHIFT (⇧)`</kbd> + <kbd>`P`</kbd>)
+2. Search and select the `Emoji-Log` option
+3. Chose the appropriate Emoji-Log prefix
+4. Emoji-Log will add itself to the Git message box as a prefix
+5. Write the git commit message and commit it.
+
+**ALTERNATIVELY**:
+
+1. Open the Source Control View (where you write the Git commit message)
+2. Click the Smile Button ☻ in the navigation menu in the top bar
+3. Chose the appropriate Emoji-Log prefix
+4. Emoji-Log will add itself to the Git message box as a prefix
+5. Write the git commit message and commit it.
 
 <br>
 
@@ -41,7 +56,7 @@
 
 ### PHILOSOPHY
 
-I like emoji. I like ’em a lot. Programming, code, geeks/nerds, open source, all of that is inherently dull and sometimes boring. Emoji (which is, in fact, the plural of emoji) helps me add colors and emotions to the mix. Nothing wrong if you want to attach feelings to this 2D flat text-based world of code. I found out that instead of memorizing [hundreds of emoji](https://gitmoji.carloscuesta.me/) it's better to keep the categories small and general.
+I like emoji. I like ’em a lot. Programming, code, geeks/nerds, open-source, all of that is inherently dull and sometimes boring. Emoji (which is, in fact, the plural of emoji) helps me add colors and emotions to the mix. Nothing wrong if you want to attach feelings to this 2D flat text-based world of code. I found out that instead of memorizing [hundreds of emoji](https://gitmoji.carloscuesta.me/) it's better to keep the categories small and general.
 
 
 1. **IMPERATIVE** ↓
