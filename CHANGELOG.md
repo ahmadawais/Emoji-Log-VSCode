@@ -19,7 +19,7 @@
 
 ## [0.1.4] - 2019-11-21
 
-- Configure the type of Gitmoji output
+- Configure the type of EmojiLog output
 
 ## [0.1.3] - 2019-11-19
 
@@ -31,7 +31,7 @@
 
 ## [0.1.1] - 2019-11-17
 
-- Synchronize 65 emoji rules with [gitmoji](https://github.com/carloscuesta/gitmoji).
+- Synchronize 65 emoji rules with [EmojiLog](https://github.com/carloscuesta/EmojiLog).
 - Chinese description according to the vscode env
 
 ## [0.1.0] - 2019-11-16
