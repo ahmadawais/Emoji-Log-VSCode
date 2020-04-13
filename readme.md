@@ -17,11 +17,14 @@
 
 ## USAGE
 
+
 1. Open the command palette (macOS: <kbd>`COMMAND (⌘)`</kbd> + <kbd>`SHIFT (⇧)`</kbd> + <kbd>`P`</kbd>  PC: <kbd>`CONTROL (⌃)`</kbd> + <kbd>`SHIFT (⇧)`</kbd> + <kbd>`P`</kbd>)
 2. Search and select the `Emoji-Log` option
 3. Chose the appropriate Emoji-Log prefix
 4. Emoji-Log will add itself to the Git message box as a prefix
 5. Write the git commit message and commit it.
+
+[![⚙️](./images/emoij-log.gif)](https://marketplace.visualstudio.com/items?itemName=ahmadawais.emoji-log-vscode)
 
 **ALTERNATIVELY**:
 
