@@ -1,9 +1,9 @@
-<div align="left"><p><a href="https://VSCode.pro/?utm_source=EmojiLogVSCode"><img alt="Learn VSCode" align="center" src="https://img.shields.io/badge/%F0%9F%A6%84-Learn%20to%20become%20a%20VSCode%20Power%20User%20%E2%86%92-gray.svg?colorA=5734F5&colorB=5734F5&style=flat" /></a>
-
 <h1 align="center">
   <a href="https://github.com/ahmadawais/Emoji-Log-VSCode"><img src="https://on.ahmda.ws/pXeE/c" /></a>
 
 `EMOJI-LOG-VSCode`
+
+<div align="center"><p><a href="https://VSCode.pro/?utm_source=EmojiLogVSCode"><img alt="Learn VSCode" align="center" src="https://img.shields.io/badge/%F0%9F%A6%84-Learn%20to%20become%20a%20VSCode%20Power%20User%20%E2%86%92-gray.svg?colorA=5734F5&colorB=5734F5&style=flat" /></a>
 
 </h1>
 
