@@ -1,3 +1,5 @@
+<div align="left"><p><a href="https://VSCode.pro/?utm_source=EmojiLogVSCode"><img alt="Learn VSCode" align="center" src="https://img.shields.io/badge/%F0%9F%A6%84-Learn%20to%20become%20a%20VSCode%20Power%20User%20%E2%86%92-gray.svg?colorA=5734F5&colorB=5734F5&style=flat" /></a>
+
 <h1 align="center">
   <a href="https://github.com/ahmadawais/Emoji-Log-VSCode"><img src="https://on.ahmda.ws/pXeE/c" /></a>
 
@@ -8,6 +10,30 @@
 > After building [hundreds of open source software](https://github.com/ahmadawais) I've ended up inventing a git commit log standard called `EMOJI-LOG` that helps me read the logs and understand a project history with less cognitive load.
 
 [![emoji-log](https://cdn.rawgit.com/ahmadawais/stuff/ca97874/emoji-log/non-flat-round.svg)](./../../)
+
+<br>
+
+![Install](https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/4_install.png)
+
+## Easy Installation
+
+1. Open the extensions sidebar on Visual Studio Code
+2. Search for **Emoji Log**
+3. Click **Install** to install it.
+4. Click **Reload** to reload your editor.
+6. 🌟 [Rate five-stars](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple#review-details).
+
+<br>
+
+![alternate installation](https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/5_alternate_installation.png)
+
+## Alternate Installation
+
+1. Launch Quick Open using <kbd>COMMAND (⌘)</kbd>+<kbd>P</kbd> — or — <kbd>CONTROL (⌃)</kbd>+<kbd>P</kbd>.
+2. Paste the command `ext install emoji-log`
+3. Click **Install** to install it.
+4. Click **Reload** to reload the your editor.
+6. 🌟 [Rate five-stars](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple#review-details).
 
 <br>
 
@@ -322,3 +348,22 @@ Me ([Ahmad Awais](https://twitter.com/mrahmadawais/)) and my incredible wife ([M
 </div>
 
 <br>
+<br>
+<br>
+<br>
+
+> After 10 years with Sublime Text, I switched to VSCode — the new open source cross-platform editor everyone's talking about. I've spent over a 1,000 hours perfecting my setup to help you <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">switch today</a> and bring all your <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">custom settings</a> and the <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">power user workflows</a> for <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">HTML/CSS</a>, GitHub/<a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">Git &amp; Open Source</a>, supercharged <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">Markdown</a>, and everything from <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">JavaScript</a> to <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">PHP</a>, Go, Python, C++, C#, ROR &amp; 50+ Extensions. I'm <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">sharing it all</a> in five hours — 65 videos online course. <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode" target="_blank">Learn Visual Studio Code →</a>
+
+<br>
+<img src="https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/hr.png" />
+<br>
+<br>
+
+<div align="center">
+  <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode" target="_blank">
+  <img src="https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/vscodeproPlay.jpg" /><br>VSCode</a>
+
+  _<small><a href="https://VSCode.pro/?utm_source=EmojiLogVSCode" target="_blank">VSCode Power User Course →</a></small>_
+</div>
+
+[course]: https://VSCode.pro/?utm_source=EmojiLogVSCode
