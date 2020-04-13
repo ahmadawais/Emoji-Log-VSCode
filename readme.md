@@ -352,6 +352,8 @@ Me ([Ahmad Awais](https://twitter.com/mrahmadawais/)) and my incredible wife ([M
 <br>
 <br>
 
+### VSCode Power User Course
+
 > After 10 years with Sublime Text, I switched to VSCode — the new open source cross-platform editor everyone's talking about. I've spent over a 1,000 hours perfecting my setup to help you <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">switch today</a> and bring all your <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">custom settings</a> and the <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">power user workflows</a> for <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">HTML/CSS</a>, GitHub/<a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">Git &amp; Open Source</a>, supercharged <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">Markdown</a>, and everything from <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">JavaScript</a> to <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">PHP</a>, Go, Python, C++, C#, ROR &amp; 50+ Extensions. I'm <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">sharing it all</a> in five hours — 65 videos online course. <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode" target="_blank">Learn Visual Studio Code →</a>
 
 <br>
