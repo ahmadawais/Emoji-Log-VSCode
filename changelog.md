@@ -35,6 +35,10 @@ I have released a video course to help you become a better developer — <a href
 
 > 🐛 Scripts [`3ec6a94`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/3ec6a9480986ce27057ff1b695dbe371e282e655) <br>
 
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Changelog [`f21f17d`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/f21f17d1464e9cb9da593228d9e23f4578f63482) <br>
+
 <br>
 
 [![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
