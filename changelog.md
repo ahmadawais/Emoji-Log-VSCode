@@ -29,12 +29,28 @@ I have released a video course to help you become a better developer — <a href
 
 <br>
 
+### RELEASE: [0.4.0](https://github.com/ahmadawais/Emoji-Log-VSCode/compare/0.3.0...0.4.0)
+
+![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+
+> 📦 Badges [`264e1ff`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/264e1ff6eb272d89d98e06dfacb54a3e702f73e4) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [0.3.0](https://github.com/ahmadawais/Emoji-Log-VSCode/compare/0.2.0...0.3.0)
 
 ![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
 
 > 👌 Definition [`76ac223`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/76ac2237714f9726599e519be28b4edaf74c39f8) <br>
 > 👌 Definition [`2607b48`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/2607b48d5780cd256a452c782f1a92ee74061eb4) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Changelog [`20659b8`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/20659b830ccade74564892ecd82427d6cce6fe2c) <br>
 
 <br>
 
