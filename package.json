@@ -2,7 +2,7 @@
 	"name": "emoji-log-vscode",
 	"displayName": "Emoji Log",
 	"description": "Emoji-Log — An Emoji Git commit log messages spec standard. [ 📦👌🐛📖🚀🤖 ‼️ ].",
-	"version": "0.0.10",
+	"version": "0.0.11",
 	"author": {
 		"name": "Ahmad Awais",
 		"email": "me@AhmadAwais.com"
