@@ -1,0 +1,78 @@
+{
+	"name": "emoji-log-vscode",
+	"displayName": "Emoji Log",
+	"description": "Emoji-Log — An Emoji Git commit log messages spec standard. [ 📦👌🐛📖🚀🤖 ‼️ ].",
+	"version": "0.0.2",
+	"author": {
+		"name": "Ahmad Awais",
+		"email": "me@AhmadAwais.com"
+	},
+	"publisher": "ahmadawais",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ahmadawais/Emoji-Log-VSCode"
+	},
+	"engines": {
+		"vscode": "^1.40.0"
+	},
+	"galleryBanner": {
+		"color": "#fad000"
+	},
+	"keywords": [
+		"Emoji Log",
+		"Emoji Log VSCode",
+		"git",
+		"emoji",
+		"commit",
+		"messages"
+	],
+	"categories": [
+		"Other"
+	],
+	"icon": "images/icon.png",
+	"activationEvents": [
+		"onCommand:extension.EmojiLog"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.EmojiLog",
+				"title": "Emoji Log: Create Emoji Log git commit message [📦👌🐛📖🚀🤖 ‼️]",
+				"icon": {
+					"dark": "images/icon_dark.svg",
+					"light": "images/icon_light.svg"
+				}
+			}
+		],
+		"menus": {
+			"scm/title": [
+				{
+					"when": "scmProvider == git",
+					"command": "extension.EmojiLog",
+					"group": "navigation"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile",
+		"release": "release-it --ci --config '../../../../Dropbox/bin/.release-it.json' minor && npx vsce publish",
+		"release-patch": "release-it --ci --config '../../../../Dropbox/bin/.release-it.json' patch && npx vsce publish",
+		"release-major": "release-it --ci --config '../../../../Dropbox/bin/.release-it.json' major && npx vsce publish"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.7",
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.40.0",
+		"glob": "^7.1.5",
+		"mocha": "^6.2.2",
+		"typescript": "^3.6.4",
+		"tslint": "^5.20.0"
+	}
+}
