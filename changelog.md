@@ -29,6 +29,18 @@ I have released a video course to help you become a better developer — <a href
 
 <br>
 
+### RELEASE: [0.0.9](https://github.com/ahmadawais/Emoji-Log-VSCode/compare/0.0.8...0.0.9)
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Changelog [`1b59b7d`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/1b59b7d57ee6da9f10f9a7cb8af5554b4a193e25) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [0.0.8](https://github.com/ahmadawais/Emoji-Log-VSCode/compare/0.0.7...0.0.8)
 
 ![🐛 FIX:](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
