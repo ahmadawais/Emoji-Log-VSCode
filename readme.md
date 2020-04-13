@@ -277,19 +277,19 @@ If your repo uses `EMOJI-LOG` then you can add any of the following badges to yo
 
 <br>
 
-![emoji-log](https://cdn.rawgit.com/ahmadawais/stuff/ca97874/emoji-log/flat-round.svg)
+![emoji-log](https://img.shields.io/badge/%F0%9F%9A%80-emoji%20log-gray.svg?colorA=3F3750&colorB=84799D&style=flat)
 
 - **STYLE**: Flat Rounded
 - **MARKDOWN** ↓
 
 ```markdown
-[![emoji-log](https://cdn.rawgit.com/ahmadawais/stuff/ca97874/emoji-log/flat-round.svg)](https://github.com/ahmadawais/Emoji-Log/)
+[![emoji-log](https://img.shields.io/badge/%F0%9F%9A%80-emoji%20log-gray.svg?colorA=3F3750&colorB=84799D&style=flat)](https://github.com/ahmadawais/Emoji-Log/)
 ```
 
 - **HTML** ↓
 
 ```html
-<a href="https://github.com/ahmadawais/Emoji-Log/"><img alt="emoji-log" src="https://cdn.rawgit.com/ahmadawais/stuff/ca97874/emoji-log/flat-round.svg" /></a>
+<a href="https://github.com/ahmadawais/Emoji-Log/"><img alt="emoji-log" src="https://img.shields.io/badge/%F0%9F%9A%80-emoji%20log-gray.svg?colorA=3F3750&colorB=84799D&style=flat" /></a>
 ```
 
 <br>
