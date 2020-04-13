@@ -7,7 +7,11 @@
 
 </h1>
 
+<h5 align="center">
+
 After building [hundreds of open source software](https://github.com/ahmadawais) I've ended up inventing a git commit log standard called `EMOJI-LOG` that helps me understand a project's history with a less cognitive load just by looking at the git log.
+
+</h5>
 
 ## USAGE
 
