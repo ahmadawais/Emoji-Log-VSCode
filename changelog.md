@@ -15,7 +15,7 @@ I have released a video course to help you become a better developer — <a href
 
 [![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
 
-**CHANGELOG KEY**: `📦 NEW`, `👌 IMPROVE`, `🐛 FIX`, `📖 DOC`, `🚀 RELEASE`, and `✅ TEST`
+**CHANGELOG KEY**: `📦 NEW`, `👌 IMPROVE`, `🐛 FIX`, `📖 DOC`, `🚀 RELEASE`, `🤖 TEST`, and `‼️ BREAKING`.
 
 <small>
 
@@ -29,11 +29,28 @@ I have released a video course to help you become a better developer — <a href
 
 <br>
 
+### RELEASE: [0.3.0](https://github.com/ahmadawais/Emoji-Log-VSCode/compare/0.2.0...0.3.0)
+
+![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
+> 👌 Definition [`76ac223`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/76ac2237714f9726599e519be28b4edaf74c39f8) <br>
+> 👌 Definition [`2607b48`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/2607b48d5780cd256a452c782f1a92ee74061eb4) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [0.2.0](https://github.com/ahmadawais/Emoji-Log-VSCode/compare/0.1.0...0.2.0)
 
 ![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
 
 > 👌 Format [`9ca64e0`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/9ca64e02152ef3fe7c593fb2380da4d6000eb608) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Changelog [`a1b3a80`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/a1b3a8077b233e9f1e63a6fdc54ecce676002db7) <br>
 
 <br>
 
