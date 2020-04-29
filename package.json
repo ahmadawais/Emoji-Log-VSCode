@@ -1,7 +1,7 @@
 {
 	"name": "emoji-log-vscode",
 	"displayName": "Emoji Log",
-	"description": "Emoji-Log — An Emoji Git commit log messages spec standard. [ 📦👌🐛📖🚀🤖 ‼️ ].",
+	"description": "Emoji-Log — An Emoji Git commit log messages spec standard. [ 📦👌🐛📖🚀🤖‼️💅 ].",
 	"version": "1.0.0",
 	"author": {
 		"name": "Ahmad Awais",
@@ -39,7 +39,7 @@
 		"commands": [
 			{
 				"command": "extension.EmojiLog",
-				"title": "Emoji Log: Create Emoji Log git commit message [📦👌🐛📖🚀🤖 ‼️]",
+				"title": "Emoji Log: Create Emoji Log git commit message [📦👌🐛📖🚀🤖‼️💅]",
 				"icon": {
 					"dark": "images/icon_dark.svg",
 					"light": "images/icon_light.svg"

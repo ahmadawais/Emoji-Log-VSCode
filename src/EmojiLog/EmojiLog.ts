@@ -31,6 +31,10 @@ let EmojiLog: Array<Emoji> = [
 	{
 		emoji: '‼️ BREAKING:',
 		description: 'Change that breaks previous versions.',
+    },
+    {
+		emoji: '💅STYLE:',
+		description: 'UI/UX design related commits.',
 	},
 ];
 export default EmojiLog;

@@ -66,7 +66,7 @@ I like emoji. I like ’em a lot. Programming, code, geeks/nerds, open-source, a
 1. **RULES** ↓
     - A small number of categories — easy to memorize.
     - Nothing more nothing less.
-    - E.g. `📦 NEW`, `👌 IMPROVE`, `🐛 FIX`, `📖 DOC`, `🚀 RELEASE`, `🤖 TEST`, and `‼️ BREAKING`
+    - E.g. `📦 NEW`, `👌 IMPROVE`, `🐛 FIX`, `📖 DOC`, `🚀 RELEASE`, `🤖 TEST`, `‼️ BREAKING`, and `💅STYLE`
 2. **ACTIONS** ↓
     - Make git commits based on the actions you take.
     - Use a good editor like [VSCode](https://code.visualstudio.com/) to commit the right files with commit messages.
@@ -94,7 +94,6 @@ Only use the following Git Commit Messages. A simple and small footprint is crit
     > Use when you add documentation like `README.md`, or even inline docs.
     > E.g. `📖 DOC: API Interface Tutorial`
 
-
 1. `🚀 RELEASE: IMPERATIVE_MESSAGE_GOES_HERE`
     > Use when you release a new version.
     > E.g. `🚀 RELEASE: Version 2.0.0`
@@ -108,6 +107,10 @@ Only use the following Git Commit Messages. A simple and small footprint is crit
 1. `‼️ BREAKING: IMPERATIVE_MESSAGE_GOES_HERE`
     > Use when releasing a change that breaks previous versions.
     > E.g. `‼️ BREAKING: Change authentication protocol`
+
+1. `💅 STYLE: IMPERATIVE_MESSAGE_GOES_HERE`
+    > Use when styled a things.
+    > E.g. `💅 STYLE: Emoji Log Section`
 
 _— That's it for now. Nothing more nothing less._
 
@@ -126,6 +129,7 @@ I'd like to share what each of these emojis mean.
 - `🚀 RELEASE:` Emoji meaning: A "rocket emoji" — which is meant to show a new release/launch.
 - `🤖 TEST:` Emoji meaning: A "robot emoji" — which says some test were run successfully.
 - `‼️ BREAKING:` Emoji meaning: A "bangbang emoji" — which attracts attention to a breaking change.
+- `💅 STYLE:` Emoji meaning: A "nailpolish emoji" — which says something has been styled.
 
 For quick prototyping, I have made the following functions that you can add to your `.bashrc`/`.zshrc` files and use Emoji-Log quickly.
 
@@ -172,6 +176,11 @@ function gtst() {
 function gbrk() {
     gcap "‼️ BREAKING: $@"
 }
+
+# STYLE CHANGE.
+function gstyle() {
+    gcap "💅 STYLE: $@"
+}
 ```
 
 To install these functions for the fish shell, run the following commands:
@@ -185,6 +194,7 @@ function grlz; gcap "🚀 RELEASE: $argv"; end;
 function gdoc; gcap "📖 DOC: $argv"; end;
 function gtst; gcap "🤖 TEST: $argv"; end;
 function gbrk; gcap "‼️ BREAKING: $argv"; end;
+function gstyle; gcap "💅 STYLE: $argv"; end;
 funcsave gcap
 funcsave gnew
 funcsave gimp
@@ -193,6 +203,7 @@ funcsave grlz
 funcsave gdoc
 funcsave gtst
 funcsave gbrk
+funcsave gstyle
 ```
 
 If you prefer, you can paste these aliases directly in your `~/.gitconfig` file:
@@ -217,6 +228,8 @@ If you prefer, you can paste these aliases directly in your `~/.gitconfig` file:
   tst = "!f() { git cap \"🤖 TEST: $@\"; }; f"
   # BREAKING CHANGE.
   brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
+  # STYLE CHANGE.
+  style = "!f() { git cap \"💅 STYLE: $@\"; }; f"
 ```
 
 <br>
@@ -259,6 +272,7 @@ This will give the following text expander keywords for the Emoji-Log:
 | `;gdoc` | 📖 DOC:      |
 | `;gtst` | 🤖 TEST:     |
 | `;gbrk` | ‼️ BREAKING:  |
+| `;gstyle` | 💅 STYLE:  |
 
 To edit the `;` prefix to your preferred expansion flag, double click right click the Emoji-Log Collection in _Alfred Settings » Features » Snippets_.
 

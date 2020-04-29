@@ -15,7 +15,7 @@ I have released a video course to help you become a better developer — <a href
 
 [![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
 
-**CHANGELOG KEY**: `📦 NEW`, `👌 IMPROVE`, `🐛 FIX`, `📖 DOC`, `🚀 RELEASE`, `🤖 TEST`, and `‼️ BREAKING`.
+**CHANGELOG KEY**: `📦 NEW`, `👌 IMPROVE`, `🐛 FIX`, `📖 DOC`, `🚀 RELEASE`, `🤖 TEST`, `‼️ BREAKING`, and `💅 STYLE`.
 
 <small>
 
