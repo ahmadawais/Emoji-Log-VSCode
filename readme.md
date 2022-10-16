@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://github.com/ahmadawais/Emoji-Log-VSCode"><img src="https://on.ahmda.ws/pXeE/c" /></a>
+  <a href="https://github.com/ahmadawais/Emoji-Log-VSCode"><img src="https://raw.githubusercontent.com/ahmadawais/Emoji-Log-VSCode/master/images/icon.png" /></a>
 
 `EMOJI-LOG-VSCode`
 
