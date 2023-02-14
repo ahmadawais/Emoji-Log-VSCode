@@ -17,7 +17,7 @@ After building [hundreds of open source software](https://github.com/ahmadawais)
 
 1. Open the command palette (macOS: <kbd>`⌘`</kbd> + <kbd>`⇧`</kbd> + <kbd>`P`</kbd> | Win/Linux: <kbd>`⌃`</kbd> + <kbd>`⇧`</kbd> + <kbd>`P`</kbd>)
 2. Search and select the `Emoji-Log` option
-3. Chose the appropriate Emoji-Log prefix
+3. Choose the appropriate Emoji-Log prefix
 4. Emoji-Log will add itself to the Git message box as a prefix
 5. Write the git commit message and commit it.
 
@@ -27,7 +27,7 @@ After building [hundreds of open source software](https://github.com/ahmadawais)
 
 1. Open the Source Control View (where you write the Git commit message)
 2. Click the Smile Button ☻ in the navigation menu in the top bar
-3. Chose the appropriate Emoji-Log prefix
+3. Choose the appropriate Emoji-Log prefix
 4. Emoji-Log will add itself to the Git message box as a prefix
 5. Write the git commit message and commit it.
 
