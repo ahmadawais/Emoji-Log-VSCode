@@ -30,7 +30,8 @@ export function activate(context: vscode.ExtensionContext) {
 
 					if (uri) {
 						let selectedRepository = git.repositories.find((repository) => {
-							return repository.rootUri.path === uri._rootUri.path;
+							return repository.rootUri.path === uri._rootUri?.path || uri.rootUri.path;
+
 						});
 						if (selectedRepository) {
 							prefixCommit(selectedRepository, selected.emoji);
