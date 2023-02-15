@@ -32,6 +32,18 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 
 <br>
 
+### RELEASE: [1.3.0](https://github.com/ahmadawais/Emoji-Log-VSCode/compare/1.2.0...1.3.0)
+
+![🐛 FIX:](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
+
+> 🐛 SVG in readme [`da5766f`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/da5766f6fe186d14ac893fcc6ae343646cb8a2a0) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [1.2.0](https://github.com/ahmadawais/Emoji-Log-VSCode/compare/1.1.0...1.2.0)
 
 ![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
@@ -43,6 +55,10 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 > 👌 Docs [`cf79d92`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/cf79d92389fef0c4f3b13b52546f15f9e5e2fef8) <br>
 > 👌 Deps updates [`9f663c3`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/9f663c322b5ac2cfe2d48bc5fb36475743d3b8c9) <br>
 > 👌 VSCode engine upgrade with new types [`07da237`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/07da23769e50c96110c96351d7cf01710f5c6739) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Changelog [`f3b65cd`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/f3b65cd0603707c0644c7be4a0d04353e9f6e564) <br>
 
 <br>
 
