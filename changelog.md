@@ -32,11 +32,23 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 
 <br>
 
+### RELEASE: [1.1.0](https://github.com/ahmadawais/Emoji-Log-VSCode/compare/1.0.1...1.1.0)
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [1.0.1](https://github.com/ahmadawais/Emoji-Log-VSCode/compare/1.0.0...1.0.1)
 
 ![🐛 FIX:](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
 
 > 🐛 Logo broken image  [`1fcf4a0`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/1fcf4a0a28d6f9f063ac1fb43ed22adb80834490) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Changelog [`96d98bc`](https://github.com/ahmadawais/Emoji-Log-VSCode/commit/96d98bc75e6c6a8e28ab722883331406311971f8) <br>
 
 <br>
 
