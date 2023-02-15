@@ -49,30 +49,31 @@ After building [hundreds of open source software](https://github.com/ahmadawais)
 3. Click **Install** to install it.
 4. 🌟 [Rate five-stars](https://marketplace.visualstudio.com/items?itemName=ahmadawais.emoji-log-vscode&ssr=false#review-details).
 
+
 <br>
 
-![Philosophy](https://on.ahmda.ws/orq5/c)
+![Philosophy](https://user-images.githubusercontent.com/960133/120058283-3ea18480-c063-11eb-8a62-8146227093fa.png)
 
 ### PHILOSOPHY
 
 I like emoji. I like ’em a lot. Programming, code, geeks/nerds, open-source, all of that is inherently dull and sometimes boring. Emoji (which is, in fact, the plural of emoji) helps me add colors and emotions to the mix. Nothing wrong if you want to attach feelings to this 2D flat text-based world of code. I found out that instead of memorizing [hundreds of emoji](https://gitmoji.carloscuesta.me/) it's better to keep the categories small and general.
 
-
 1. **IMPERATIVE** ↓
     - Make your Git commit messages imperative.
-    - Write commit message like you're giving an order.
+    - Write a commit message like you're giving an order.
     - E.g., Use ✅ `Add` instead of ❌ `Added`.
     - E.g., Use ✅ `Create` instead of ❌ `Creating`.
 1. **RULES** ↓
     - A small number of categories — easy to memorize.
     - Nothing more nothing less.
     - E.g. `📦 NEW`, `👌 IMPROVE`, `🐛 FIX`, `📖 DOC`, `🚀 RELEASE`, `🤖 TEST`, and `‼️ BREAKING`
-2. **ACTIONS** ↓
+1. **ACTIONS** ↓
     - Make git commits based on the actions you take.
     - Use a good editor like [VSCode](https://code.visualstudio.com/) to commit the right files with commit messages.
+
 <br>
 
-[![Start](https://on.ahmda.ws/osd3/c)](./../../)
+![Start](https://user-images.githubusercontent.com/960133/120058297-4c570a00-c063-11eb-8458-0f61cf621169.png)
 
 ### GETTING STARTED
 
@@ -94,16 +95,13 @@ Only use the following Git Commit Messages. A simple and small footprint is crit
     > Use when you add documentation like `README.md`, or even inline docs.
     > E.g. `📖 DOC: API Interface Tutorial`
 
-
 1. `🚀 RELEASE: IMPERATIVE_MESSAGE_GOES_HERE`
     > Use when you release a new version.
     > E.g. `🚀 RELEASE: Version 2.0.0`
 
-
 1. `🤖 TEST: IMPERATIVE_MESSAGE_GOES_HERE`
     > Use when it's related to testing.
     > E.g. `🤖 TEST: Mock User Login/Logout`
-
 
 1. `‼️ BREAKING: IMPERATIVE_MESSAGE_GOES_HERE`
     > Use when releasing a change that breaks previous versions.
@@ -113,7 +111,7 @@ _— That's it for now. Nothing more nothing less._
 
 <br>
 
-[![More](https://on.ahmda.ws/orsm/c)](./../../)
+![More](https://user-images.githubusercontent.com/960133/120058303-5547db80-c063-11eb-87ae-17f758a4e43b.png)
 
 #### THE WORKFLOW & MEANINGS
 
@@ -127,6 +125,12 @@ I'd like to share what each of these emojis mean.
 - `🤖 TEST:` Emoji meaning: A "robot emoji" — which says some test were run successfully.
 - `‼️ BREAKING:` Emoji meaning: A "bangbang emoji" — which attracts attention to a breaking change.
 
+##### VSCode Extension
+
+If you use VSCode, then I have built an extension [Emoji-Log for VSCode](https://marketplace.visualstudio.com/items?itemName=ahmadawais.emoji-log-vscode). This can help you write git commit messages quickly.
+
+##### Bash/Zsh Workflow
+
 For quick prototyping, I have made the following functions that you can add to your `.bashrc`/`.zshrc` files and use Emoji-Log quickly.
 
 ```sh
@@ -134,45 +138,58 @@ For quick prototyping, I have made the following functions that you can add to y
 ### Using EMOJI-LOG (https://github.com/ahmadawais/Emoji-Log).
 
 # Git Commit, Add all and Push — in one step.
-function gcap() {
+gcap() {
     git add . && git commit -m "$*" && git push
 }
 
 # NEW.
-function gnew() {
+gnew() {
     gcap "📦 NEW: $@"
 }
 
 # IMPROVE.
-function gimp() {
+gimp() {
     gcap "👌 IMPROVE: $@"
 }
 
 # FIX.
-function gfix() {
+gfix() {
     gcap "🐛 FIX: $@"
 }
 
 # RELEASE.
-function grlz() {
+grlz() {
     gcap "🚀 RELEASE: $@"
 }
 
 # DOC.
-function gdoc() {
+gdoc() {
     gcap "📖 DOC: $@"
 }
 
 # TEST.
-function gtst() {
+gtst() {
     gcap "🤖 TEST: $@"
 }
 
 # BREAKING CHANGE.
-function gbrk() {
+gbrk() {
     gcap "‼️ BREAKING: $@"
 }
+gtype() {
+NORMAL='\033[0;39m'
+GREEN='\033[0;32m'
+echo "$GREEN gnew$NORMAL — 📦 NEW
+$GREEN gimp$NORMAL — 👌 IMPROVE
+$GREEN gfix$NORMAL — 🐛 FIX
+$GREEN grlz$NORMAL — 🚀 RELEASE
+$GREEN gdoc$NORMAL — 📖 DOC
+$GREEN gtst$NORMAL — 🧪️ TEST
+$GREEN gbrk$NORMAL — ‼️ BREAKING"
+}
 ```
+
+##### Fish Shell Workflow
 
 To install these functions for the fish shell, run the following commands:
 
@@ -194,6 +211,8 @@ funcsave gdoc
 funcsave gtst
 funcsave gbrk
 ```
+
+##### Git Aliases
 
 If you prefer, you can paste these aliases directly in your `~/.gitconfig` file:
 
@@ -221,7 +240,7 @@ If you prefer, you can paste these aliases directly in your `~/.gitconfig` file:
 
 <br>
 
-[![Using](https://on.ahmda.ws/rP6e/c)](./../../)
+![Using](https://user-images.githubusercontent.com/960133/120058311-61339d80-c063-11eb-9853-da0905b7c288.png)
 
 ### USING `EMOJI-LOG`
 
@@ -236,7 +255,7 @@ Here's a list of repos that make use of Emoji-Log.
 
 <br>
 
-[![AlfredSnippets](https://on.ahmda.ws/05bd88/c)](./../../)
+![AlfredSnippets](https://user-images.githubusercontent.com/960133/120058316-685aab80-c063-11eb-8bfd-cb0d4b3e34c2.png)
 
 ### Alfred Snippets
 
@@ -245,7 +264,7 @@ Here's a list of repos that make use of Emoji-Log.
 To setup:
 
 1. Have Alfred 3 with PowerPack installed
-2. For auto-expansion, in _Alfred Settings » Features » Snippets_ ensure the "Automatically expand snippets by Keyword" box is checked
+2. For auto expansion, in _Alfred Settings » Features » Snippets_ ensure the "Automatically expand snippets by Keyword" box is checked
 3. Download & open [`Emoji-Log.alfredsnippets`](Emoji-Log.alfredsnippets), deselecting "Strip snippets of 'auto expand' flag" when prompted
 
 This will give the following text expander keywords for the Emoji-Log:
@@ -266,7 +285,7 @@ To edit the `;` prefix to your preferred expansion flag, double click right clic
 
 <br>
 
-[![badge](https://on.ahmda.ws/rOMZ/c)](./../../)
+![badge](https://user-images.githubusercontent.com/960133/120058320-6ee92300-c063-11eb-834c-20463fdfb0dd.png)
 
 ### `EMOJI-LOG` BADGE COLLECTION
 
@@ -274,53 +293,53 @@ If your repo uses `EMOJI-LOG` then you can add any of the following badges to yo
 
 <br>
 
-![emoji-log](https://img.shields.io/badge/%F0%9F%9A%80-emoji%20log-gray.svg?colorA=3F3750&colorB=84799D&style=flat)
+![emoji-log](https://cdn.rawgit.com/ahmadawais/stuff/ca97874/emoji-log/flat.svg)
 
 - **STYLE**: Flat Square
 - **MARKDOWN** ↓
 
 ```markdown
-[![emoji-log](https://img.shields.io/badge/%F0%9F%9A%80-emoji%20log-gray.svg?colorA=3F3750&colorB=84799D&style=flat)](https://github.com/ahmadawais/Emoji-Log/)
+[![emoji-log](https://cdn.rawgit.com/ahmadawais/stuff/ca97874/emoji-log/flat.svg)](https://github.com/ahmadawais/Emoji-Log/)
 ```
 
 - **HTML** ↓
 
 ```html
-<a href="https://github.com/ahmadawais/Emoji-Log/"><img alt="emoji-log" src="https://img.shields.io/badge/%F0%9F%9A%80-emoji%20log-gray.svg?colorA=3F3750&colorB=84799D&style=flat" /></a>
+<a href="https://github.com/ahmadawais/Emoji-Log/"><img alt="emoji-log" src="https://cdn.rawgit.com/ahmadawais/stuff/ca97874/emoji-log/flat.svg" /></a>
 ```
 
 <br>
 
-![emoji-log](https://img.shields.io/badge/%F0%9F%9A%80-emoji%20log-gray.svg?colorA=3F3750&colorB=84799D&style=flat)
+![emoji-log](https://cdn.rawgit.com/ahmadawais/stuff/ca97874/emoji-log/flat-round.svg)
 
 - **STYLE**: Flat Rounded
 - **MARKDOWN** ↓
 
 ```markdown
-[![emoji-log](https://img.shields.io/badge/%F0%9F%9A%80-emoji%20log-gray.svg?colorA=3F3750&colorB=84799D&style=flat)](https://github.com/ahmadawais/Emoji-Log/)
+[![emoji-log](https://cdn.rawgit.com/ahmadawais/stuff/ca97874/emoji-log/flat-round.svg)](https://github.com/ahmadawais/Emoji-Log/)
 ```
 
 - **HTML** ↓
 
 ```html
-<a href="https://github.com/ahmadawais/Emoji-Log/"><img alt="emoji-log" src="https://img.shields.io/badge/%F0%9F%9A%80-emoji%20log-gray.svg?colorA=3F3750&colorB=84799D&style=flat" /></a>
+<a href="https://github.com/ahmadawais/Emoji-Log/"><img alt="emoji-log" src="https://cdn.rawgit.com/ahmadawais/stuff/ca97874/emoji-log/flat-round.svg" /></a>
 ```
 
 <br>
 
-![emoji-log](https://img.shields.io/badge/%F0%9F%9A%80-emoji%20log-gray.svg?colorA=3F3750&colorB=84799D&style=flat)
+![emoji-log](https://cdn.rawgit.com/ahmadawais/stuff/ca97874/emoji-log/non-flat-round.svg)
 
 - **STYLE**: Non-flat Rounded
 - **MARKDOWN** ↓
 
 ```markdown
-[![emoji-log](https://img.shields.io/badge/%F0%9F%9A%80-emoji%20log-gray.svg?colorA=3F3750&colorB=84799D&style=flat)](https://github.com/ahmadawais/Emoji-Log/)
+[![emoji-log](https://cdn.rawgit.com/ahmadawais/stuff/ca97874/emoji-log/non-flat-round.svg)](https://github.com/ahmadawais/Emoji-Log/)
 ```
 
 - **HTML** ↓
 
 ```html
-<a href="https://github.com/ahmadawais/Emoji-Log/"><img alt="emoji-log" src="https://img.shields.io/badge/%F0%9F%9A%80-emoji%20log-gray.svg?colorA=3F3750&colorB=84799D&style=flat" /></a>
+<a href="https://github.com/ahmadawais/Emoji-Log/"><img alt="emoji-log" src="https://cdn.rawgit.com/ahmadawais/stuff/ca97874/emoji-log/non-flat-round.svg" /></a>
 ```
 
 <br>
@@ -345,7 +364,6 @@ Me ([Ahmad Awais](https://twitter.com/mrahmadawais/)) and my incredible wife ([M
 - MIT © [Ahmad Awais](https://twitter.com/MrAhmadAwais/)
 - [Code of Conduct](code-of-conduct.md)
 - [Munawar](https://munwr.com/) for making awesome badges
-- @seatonjiang for Gitmoji whose codebase inspired me
 
 <br>
 
@@ -353,33 +371,31 @@ Me ([Ahmad Awais](https://twitter.com/mrahmadawais/)) and my incredible wife ([M
 
 ## Connect
 
+
+<div align="left"><p><a href="https://nodecli.com/?utm_source=github.com/ahmadawais&utm_medium=referral&utm_campaign=profile"><img alt="NodeCLI.com" align="center" src="https://img.shields.io/badge/LEARN-Node%20CLI%20Automation%20-gray.svg?colorA=596577&colorB=6A788D&style=for-the-badge" /></a>&nbsp; <strong>IMP:</strong> I'm teaching developers how to automate their work and life with JavaScript
+</p></div>
+
 <div align="left">
-    <p><a href="https://github.com/ahmadawais"><img alt="GitHub @AhmadAwais" align="center" src="https://img.shields.io/badge/GITHUB-gray.svg?colorB=6cc644&colorA=6cc644&style=flat" /></a>&nbsp;<small><strong>(follow)</strong> To stay up to date on free & open-source software</small></p>
-    <p><a href="https://twitter.com/MrAhmadAwais/"><img alt="Twitter @MrAhmadAwais" align="center" src="https://img.shields.io/badge/TWITTER-gray.svg?colorB=1da1f2&colorA=1da1f2&style=flat" /></a>&nbsp;<small><strong>(follow)</strong> To get #OneDevMinute daily hot tips & trolls</small></p>
-    <p><a href="https://www.youtube.com/AhmadAwais"><img alt="YouTube AhmadAwais" align="center" src="https://img.shields.io/badge/YOUTUBE-gray.svg?colorB=ff0000&colorA=ff0000&style=flat" /></a>&nbsp;<small><strong>(subscribe)</strong> To tech talks & #OneDevMinute videos</small></p>
-    <p><a href="https://AhmadAwais.com/"><img alt="Blog: AhmadAwais.com" align="center" src="https://img.shields.io/badge/MY%20BLOG-gray.svg?colorB=4D2AFF&colorA=4D2AFF&style=flat" /></a>&nbsp;<small><strong>(read)</strong> In-depth & long form technical articles</small></p>
-    <p><a href="https://www.linkedin.com/in/MrAhmadAwais/"><img alt="LinkedIn @MrAhmadAwais" align="center" src="https://img.shields.io/badge/LINKEDIN-gray.svg?colorB=0077b5&colorA=0077b5&style=flat" /></a>&nbsp;<small><strong>(connect)</strong> On the LinkedIn profile y'all</small></p>
+    <p><a href="https://twitter.com/MrAhmadAwais/"><img alt="Twitter @MrAhmadAwais" align="center" src="https://img.shields.io/badge/-@MrAhmadAwais-gray.svg?colorA=6A788D&colorB=1da1f2&style=for-the-badge" /></a>&nbsp;<small> <strong>(follow)</strong> To get <a href="https://Awais.dev/odmt">#OneDevMinute</a> development tips</small></p>
+    <p><a href="https://github.com/AhmadAwais"><img alt="YouTube AhmadAwais" align="center" src="https://img.shields.io/badge/GITHUB-gray.svg?colorA=6A788D&colorB=6A788D&style=for-the-badge" /></a>&nbsp;<small><strong>(follow)</strong> 200+ FOSS software projects</small></p>
+    <p><a href="https://www.youtube.com/AhmadAwais"><img alt="YouTube AhmadAwais" align="center" src="https://img.shields.io/badge/YOUTUBE-gray.svg?colorA=6A788D&colorB=6A788D&style=for-the-badge" /></a>&nbsp;<small><strong>(subscribe)</strong> Tech talks & #OneDevMinute videos</small></p>
+    <p><a href="https://AhmadAwais.com/"><img alt="Blog: AhmadAwais.com" align="center" src="https://img.shields.io/badge/-MY%20BLOG-gray.svg?colorA=6A788D&colorB=6A788D&style=for-the-badge" /></a>&nbsp;<small><strong>(read)</strong> In-depth & long form technical articles</small></p>
+    <p><a href="https://www.linkedin.com/in/MrAhmadAwais/"><img alt="LinkedIn @MrAhmadAwais" align="center" src="https://img.shields.io/badge/LINKEDIN-gray.svg?colorA=6A788D&colorB=6A788D&style=for-the-badge" /></a>&nbsp;<small><strong>(connect)</strong> On LinkedIn y'all</small></p>
 </div>
 
-<br>
-<br>
-<br>
-<br>
+[![Sponsor Awais](https://raw.githubusercontent.com/ahmadawais/stuff/master/sponsor/sponsor.jpg)][s]
 
-### VSCode Power User Course
+<small><strong>❯❯ Professional Development Courses ↓</strong></small>
 
-> After 10 years with Sublime Text, I switched to VSCode — the new open source cross-platform editor everyone's talking about. I've spent over a 1,000 hours perfecting my setup to help you <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">switch today</a> and bring all your <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">custom settings</a> and the <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">power user workflows</a> for <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">HTML/CSS</a>, GitHub/<a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">Git &amp; Open Source</a>, supercharged <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">Markdown</a>, and everything from <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">JavaScript</a> to <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">PHP</a>, Go, Python, C++, C#, ROR &amp; 50+ Extensions. I'm <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode">sharing it all</a> in five hours — 65 videos online course. <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode" target="_blank">Learn Visual Studio Code →</a>
+[![Node CLI Course](https://img.shields.io/badge/LEARN-Node%20CLI%20Automation%20%E2%86%92-gray.svg?colorA=61c265&colorB=4CAF50&style=for-the-badge)][n] [![VSCode Course](https://img.shields.io/badge/LEARN-VSCode%20Power%20User%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge)][v] [![Deno Course](https://img.shields.io/badge/LEARN-Deno%20(free)%20%E2%86%92-gray.svg?colorA=6B999F&colorB=6A788D&style=for-the-badge)][d]
 
-<br>
-<img src="https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/hr.png" />
-<br>
-<br>
+![](https://hit.yhype.me/github/profile?user_id=960133)
 
-<div align="center">
-  <a href="https://VSCode.pro/?utm_source=EmojiLogVSCode" target="_blank">
-  <img src="https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/vscodeproPlay.jpg" /><br>VSCode</a>
+[s]: https://github.com/AhmadAwais/sponsor
+[n]: https://NodeCLI.com?utm_source=github.com/ahmadawais&utm_medium=referral&utm_campaign=profile
+[v]: https://VSCode.pro?utm_source=github.com/ahmadawais&utm_medium=referral&utm_campaign=profile
+[d]: https://DenoBeginner.com?utm_source=github.com/ahmadawais&utm_medium=referral&utm_campaign=profile
+[g]: https://github.com/AhmadAwais
 
-  _<small><a href="https://VSCode.pro/?utm_source=EmojiLogVSCode" target="_blank">VSCode Power User Course →</a></small>_
-</div>
 
 [course]: https://VSCode.pro/?utm_source=EmojiLogVSCode
