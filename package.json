@@ -14,7 +14,7 @@
 		"url": "https://github.com/ahmadawais/Emoji-Log-VSCode"
 	},
 	"engines": {
-		"vscode": "^1.40.0"
+		"vscode": "^1.73.0"
 	},
 	"galleryBanner": {
 		"color": "#fad000"
